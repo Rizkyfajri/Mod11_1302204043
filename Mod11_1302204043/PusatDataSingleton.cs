@@ -9,11 +9,11 @@ namespace Mod11_1302204043
     public class PusatDataSingleton
     {
         private static PusatDataSingleton _instance = null;
-        private List<string> DataSimpan;
+        private List<string> DataTersimpan;
 
         private PusatDataSingleton()
         {
-            this.DataSimpan = new List<string>();
+            this.DataTersimpan = new List<string>();
         }
         
         public static PusatDataSingleton GetPusatDataSingleton
