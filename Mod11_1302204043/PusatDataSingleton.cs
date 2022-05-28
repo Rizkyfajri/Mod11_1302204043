@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//Dibuat oleh Fajri
 namespace Mod11_1302204043
 {
     public class PusatDataSingleton
