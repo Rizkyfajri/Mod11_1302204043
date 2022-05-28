@@ -16,5 +16,10 @@ namespace Mod11_1302204043
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

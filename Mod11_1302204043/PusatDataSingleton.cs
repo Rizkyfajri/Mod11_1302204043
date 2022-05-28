@@ -15,7 +15,7 @@ namespace Mod11_1302204043
         {
             this.DataTersimpan = new List<string>();
         }
-        
+            
         public static PusatDataSingleton GetPusatDataSingleton
         {
             get
@@ -30,19 +30,22 @@ namespace Mod11_1302204043
 
         public List<string> GetSemuaData()
         {
-            return null;
+            return this.DataTersimpan;
         }
         public void PrintSemuaData()
         {
-            
+            for (int i = 0; i < DataTersimpan.Count; i++)
+            {
+                Console.WriteLine(DataTersimpan[i]);
+            }
         }
-        public void AddSebuahData(string a)
+        public void AddSebuahData(string input)
         {
-
+            DataTersimpan.Add(input);
         }
         public void HapusSebuahData(int index)
         {
-
+            DataTersimpan.RemoveAt(index);
         }
 
 
